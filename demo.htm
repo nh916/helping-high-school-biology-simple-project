@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <style>
+        h2 {
+            color: white;
+            font-style: italic;
+            margin-bottom: 1rem;
+        }
+
+        hr {
+            color: white;
+        }
+    </style>
+
+    <title>Demo</title>
+</head>
+
+<body style="background-color: black;">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand">Group 5</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" aria-current="page" href="#questions-and-answers">
+                        Questions and Answers</a>
+                    <a class="nav-link" href="#show-and-tell">Show and Tell</a>
+                    <a class="nav-link" href="#questions-and-answers">Questions and Answers</a>
+                    <a class="nav-link" href="#picture-perfect">Picture Perfection</a>
+                    <a class="nav-link" href="#short-facts">Short Facts</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+
+        <br><br>
+
+        <div class="container text-center" style="color: white;">
+            <h1>Biology is cool!</h1>
+        </div>
+
+        <br><br>
+
+        <section class="container" id="show-and-tell">
+            <h2>Show and Tell</h2>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/shark.jfif" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Sharks know biology</h5>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim doloremque ea iure quasi
+                                corrupti inventore ipsam. Non, deleniti alias repellat pariatur veritatis inventore
+                                aliquid neque deserunt? Maxime optio impedit eum? Facere, alias totam! Placeat itaque
+                                provident, delectus vitae tenetur maxime quasi assumenda rerum at dolore facere!
+                                Reprehenderit laudantium facilis ut?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/photo-1518152006812-edab29b069ac.jfif" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Microscopes</h5>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti molestias ipsam fuga
+                                pariatur adipisci atque necessitatibus omnis dolore, totam sunt eum magni soluta
+                                exercitationem possimus facilis repudiandae impedit sapiente expedita? Ut a nesciunt
+                                maiores quibusdam, nihil cupiditate consequatur quaerat voluptatibus expedita laboriosam
+                                rerum quae pariatur perferendis harum nulla! Debitis, mollitia minus, sunt impedit natus
+                                aliquam incidunt earum aperiam officia laudantium, neque illum cumque quod consequuntur.
+                                Odio, corrupti iste nobis cupiditate ea a eum non quaerat eos illum soluta sunt,
+                                veritatis sapiente exercitationem? Illo quidem quibusdam exercitationem odit ab amet
+                                obcaecati, iste animi odio, necessitatibus aliquid inventore autem nisi aliquam natus?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/fish.jfif" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Fish have biology</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum, aut!</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <br><br>
+
+        <hr class="container">
+
+        <section class="container" id="questions-and-answers">
+            <h2>Questions and Answers</h2>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            What is MRNA?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, et. Velit illum accusamus
+                            blanditiis porro hic nemo commodi voluptatum quasi modi exercitationem, quae placeat vero
+                            vitae
+                            nulla ea reprehenderit eum, quidem perferendis cumque, explicabo odio recusandae minus quo?
+                            Perspiciatis eligendi mollitia quia neque harum, sunt, ut repellendus eos sed iste
+                            temporibus
+                            qui praesentium at cumque eveniet aliquid aut libero ipsam! Sint dicta cumque eveniet
+                            exercitationem commodi minima eos saepe nemo, modi quidem iure vel pariatur asperiores hic
+                            aspernatur, quas neque earum magni veniam. Excepturi iste nisi blanditiis laboriosam illum
+                            necessitatibus dolore, enim asperiores dolor! Rem ullam corporis unde dolorum quibusdam?
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            What is DNA?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quisquam repellendus
+                            tempora
+                            non nobis, voluptate soluta distinctio quam harum suscipit, temporibus, incidunt consequatur
+                            amet accusamus hic libero nesciunt id totam odio animi? Accusantium ad tempore, officia
+                            eligendi
+                            est eos placeat reiciendis aspernatur incidunt repellendus, odio totam minima quibusdam
+                            velit
+                            eveniet.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            What is a cell?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non harum sit, ducimus laborum
+                            labore
+                            praesentium porro expedita quae minus aspernatur odit modi asperiores? Nihil alias
+                            necessitatibus, fugit tempora quae dolore magnam facere maiores maxime quibusdam veniam
+                            possimus
+                            nemo ipsum, fugiat, quas iusto hic cupiditate ex est ab. Quibusdam repudiandae vero esse
+                            praesentium est molestiae ratione dolore quo similique at saepe repellat odio porro
+                            distinctio
+                            nostrum, commodi sed pariatur? Provident omnis perspiciatis accusamus facere ut ab? Velit,
+                            pariatur nisi? Voluptates repellendus ea dolorum voluptatibus eius, quaerat, nostrum fugiat
+                            placeat quo dicta quidem velit debitis magnam iusto libero exercitationem nam tempore
+                            asperiores
+                            et doloremque aperiam qui, rerum corporis unde? Temporibus vel, eum adipisci dolore officia
+                            consequuntur quisquam fuga accusamus aliquam soluta iusto corrupti voluptatum, reprehenderit
+                            enim provident, repudiandae doloribus ut dolorum? Dolor at nam accusantium illum saepe ex,
+                            rem
+                            ratione porro? Voluptatem odit delectus eos consectetur omnis! Tempore repellendus quibusdam
+                            temporibus deserunt excepturi quasi non provident eveniet doloremque placeat? Explicabo esse
+                            quis, unde voluptatem quidem repudiandae enim in assumenda cum aperiam quasi molestias
+                            dolore,
+                            officiis, ipsa veniam cumque quas soluta rem. Ipsa, et. Doloremque enim distinctio eligendi
+                            aliquam illo laudantium. Cum eius dolor eligendi. Odit explicabo officiis accusantium
+                            obcaecati.
+                            Ducimus, quasi eligendi! Iusto, laudantium autem, rerum eveniet dolores similique cum minima
+                            hic
+                            nam non sint dolorem nesciunt suscipit praesentium distinctio accusamus magni corporis?
+                            Consectetur saepe odit ducimus molestias repudiandae suscipit. Quis dolorem tempore hic.
+                            Temporibus magnam et beatae quae labore amet rerum eius. Natus, totam rem dolores eius animi
+                            voluptas reiciendis recusandae harum cum odio voluptates, a corporis. Deserunt maiores
+                            voluptatibus quod labore veniam a dicta incidunt sunt voluptatum, vero, alias iusto quae
+                            ducimus
+                            velit ea nisi asperiores quas explicabo vel. Odit aliquam molestias quod, voluptates
+                            asperiores
+                            ut eos, cupiditate vitae pariatur placeat beatae possimus vel fuga consequuntur labore
+                            explicabo
+                            perspiciatis earum.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFour" aria-expanded="false"
+                            aria-controls="flush-collapseFour">
+                            What is photosynthesis?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non harum sit, ducimus laborum
+                            labore
+                            praesentium porro expedita quae minus aspernatur odit modi asperiores? Nihil alias
+                            necessitatibus, fugit tempora quae dolore magnam facere maiores maxime quibusdam veniam
+                            possimus
+                            nemo ipsum, fugiat, quas iusto hic cupiditate ex est ab. Quibusdam repudiandae vero esse
+                            praesentium est molestiae ratione dolore quo similique at saepe repellat odio porro
+                            distinctio
+                            nostrum, commodi sed pariatur? Provident omnis perspiciatis accusamus facere ut ab? Velit,
+                            pariatur nisi? Voluptates repellendus ea dolorum voluptatibus eius, quaerat, nostrum fugiat
+                            placeat quo dicta quidem velit debitis magnam iusto libero exercitationem nam tempore
+                            asperiores
+                            et doloremque aperiam qui, rerum corporis unde? Temporibus vel, eum adipisci dolore officia
+                            consequuntur quisquam fuga accusamus aliquam soluta iusto corrupti voluptatum, reprehenderit
+                            enim provident, repudiandae doloribus ut dolorum? Dolor at nam accusantium illum saepe ex,
+                            rem
+                            ratione porro? Voluptatem odit delectus eos consectetur omnis! Tempore repellendus quibusdam
+                            temporibus deserunt excepturi quasi non provident eveniet doloremque placeat? Explicabo esse
+                            quis, unde voluptatem quidem repudiandae enim in assumenda cum aperiam quasi molestias
+                            dolore,
+                            officiis, ipsa veniam cumque quas soluta rem. Ipsa, et. Doloremque enim distinctio eligendi
+                            aliquam illo laudantium. Cum eius dolor eligendi. Odit explicabo officiis accusantium
+                            obcaecati.
+                            Ducimus, quasi eligendi! Iusto, laudantium autem, rerum eveniet dolores similique cum minima
+                            hic
+                            nam non sint dolorem nesciunt suscipit praesentium distinctio accusamus magni corporis?
+                            Consectetur saepe odit ducimus molestias repudiandae suscipit. Quis dolorem tempore hic.
+                            Temporibus magnam et beatae quae labore amet rerum eius. Natus, totam rem dolores eius animi
+                            voluptas reiciendis recusandae harum cum odio voluptates, a corporis. Deserunt maiores
+                            voluptatibus quod labore veniam a dicta incidunt sunt voluptatum, vero, alias iusto quae
+                            ducimus
+                            velit ea nisi asperiores quas explicabo vel. Odit aliquam molestias quod, voluptates
+                            asperiores
+                            ut eos, cupiditate vitae pariatur placeat beatae possimus vel fuga consequuntur labore
+                            explicabo
+                            perspiciatis earum.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFive" aria-expanded="false"
+                            aria-controls="flush-collapseFive">
+                            What are Ribosomes?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis alias impedit veritatis
+                            aperiam deserunt, sit consequatur eius quia vel qui, ab ex mollitia veniam quae sunt ad
+                            reprehenderit perspiciatis non? Eligendi repellat laboriosam iste necessitatibus ad maiores,
+                            doloribus dolorum porro nulla cum doloremque cupiditate voluptates culpa atque amet sint
+                            quos
+                            quis incidunt iure autem eos placeat hic voluptatum! Atque explicabo at numquam? Earum,
+                            tenetur
+                            asperiores quis ratione suscipit similique optio delectus temporibus cum inventore
+                            perspiciatis
+                            maiores, expedita, sapiente assumenda minus? Non reprehenderit ad iure illum porro aliquam
+                            in
+                            expedita vitae sequi molestiae eos quia aperiam magni tenetur consectetur deserunt
+                            cupiditate
+                            laboriosam quaerat soluta, quam saepe! Deserunt odio necessitatibus similique accusamus
+                            itaque
+                            vero rerum in voluptate labore quis nesciunt saepe possimus inventore consequatur sequi
+                            cupiditate, explicabo dolores voluptatibus repudiandae impedit iure omnis fugiat corporis
+                            magnam. Expedita unde minus eaque nulla neque. Quisquam sequi deserunt corporis vel corrupti
+                            animi atque illum ad voluptatibus asperiores non, molestias dolore a totam magnam. Atque
+                            aliquid
+                            dolorum maxime reprehenderit ipsam animi itaque, voluptatum quasi! Tempore, placeat quaerat
+                            sed
+                            possimus minus eius fuga cum. Odit explicabo sequi facere provident perspiciatis deserunt
+                            architecto quo aliquam laudantium fugit ea consectetur voluptate earum optio ab, reiciendis
+                            blanditiis? Dignissimos ipsa minima officiis porro eveniet accusamus quisquam exercitationem
+                            minus autem. Voluptatibus perferendis illo temporibus accusantium omnis voluptate maiores,
+                            quibusdam deleniti modi eveniet ex pariatur veritatis impedit. Ducimus ut suscipit vitae
+                            dolorum
+                            quidem voluptate maxime hic. Praesentium voluptate numquam mollitia incidunt nulla officiis,
+                            labore officia placeat ea vero deleniti sint minima, a quis. Laborum reiciendis perferendis
+                            ipsa, quae placeat deleniti rem quisquam cum atque, provident nam labore veritatis eius
+                            similique porro possimus soluta at, iusto dolores blanditiis excepturi? Hic inventore
+                            recusandae
+                            consectetur eum voluptas necessitatibus, aspernatur, repellat quo neque, accusamus natus.
+                            Praesentium dolorem optio, assumenda atque magni consectetur consequatur modi eaque a
+                            suscipit
+                            alias sint ad deleniti at non quas adipisci in esse ducimus odio beatae. Magnam aut vitae a
+                            veniam. Dolorem consectetur, nobis molestias similique ipsa ratione nulla obcaecati. Odio
+                            modi
+                            sed deleniti iure explicabo impedit maiores totam velit voluptas odit labore voluptatum ea,
+                            corrupti commodi mollitia earum. Dignissimos nostrum sapiente velit nam mollitia alias
+                            architecto sed dolorum cum obcaecati, unde quos, ex sit qui minus quae ea assumenda
+                            praesentium
+                            maxime! Necessitatibus inventore similique, nihil soluta, ad impedit voluptas quis pariatur
+                            dicta corporis, excepturi eius minima. Mollitia, quia. Provident perspiciatis pariatur odio
+                            labore quis inventore, repudiandae architecto enim officia in minima quibusdam earum culpa
+                            tempora illum optio veniam. Quia eaque necessitatibus recusandae perspiciatis porro veniam,
+                            laboriosam quis vel alias inventore aut enim quod ipsam eius molestias voluptas dolores rem
+                            libero quas? In fugiat quis, distinctio pariatur ipsum maxime laborum asperiores
+                            reprehenderit
+                            sequi? Dolores possimus vero laudantium officiis libero cum id voluptatum consequuntur
+                            fugiat
+                            delectus dolorum corrupti officia pariatur ipsa deserunt molestias cumque omnis suscipit
+                            esse
+                            necessitatibus inventore vitae quam, harum repellendus. Natus quisquam corrupti nostrum,
+                            sint
+                            cum quasi obcaecati a nisi placeat minima suscipit autem et voluptates saepe odit, ea
+                            exercitationem consequatur earum ex dolorem iusto vitae iste cumque? Autem, voluptates
+                            quisquam.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingSix">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                            What is tRNA
+                        </button>
+                    </h2>
+                    <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis amet, iusto optio dolores
+                            eaque exercitationem maiores ratione facilis quibusdam aliquid fugiat possimus perspiciatis
+                            non
+                            ea reiciendis veniam nisi sunt, quisquam incidunt. Dolore cumque quis optio! Dolorem non
+                            fugiat
+                            aspernatur id suscipit fuga blanditiis placeat voluptas sequi accusantium voluptatum nobis,
+                            necessitatibus error enim repellendus quibusdam obcaecati amet, maxime quae corporis iste
+                            accusamus nam tempore totam. Nam iure, dolorem deleniti magnam id accusantium neque ea
+                            exercitationem corrupti deserunt in, reprehenderit vitae soluta repudiandae assumenda error
+                            hic
+                            fugit dicta illo consequuntur iusto quod accusamus ipsa veniam. Consequuntur amet quos nisi
+                            hic
+                            rem. Id?
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <br> <br>
+
+        <hr class="container">
+
+        <section class="container" id="picture-perfect">
+            <h2>Picture Perfection</h2>
+
+            <div class="row" style="gap: 2rem;">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://images.unsplash.com/photo-1593319115651-4b2e00bf1367?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis ratione eius voluptate
+                            corporis, vero sint rem, debitis quibusdam non minima, libero ipsa. Dolorem necessitatibus,
+                            totam eum fugiat fuga minima adipisci? Porro quibusdam natus omnis maiores, placeat nobis
+                            obcaecati. Modi impedit ducimus, exercitationem distinctio maxime numquam inventore
+                            consequuntur
+                            culpa temporibus in?
+                        </p>
+                        <a href="plants.html" class="btn btn-primary">Learn More about Plants</a>
+                    </div>
+                </div>
+                <br>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="/images/photo-1518152006812-edab29b069ac.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <br><br>
+        <hr class="container">
+
+        <section class="container" id="short-facts">
+            <h2>Short Facts</h2>
+            <br>
+
+            <div class="row" style="gap: 2rem;">
+                <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Primary card title</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, aliquid
+                            fuga? Tempore alias impedit doloremque voluptatibus temporibus odit illum dolores expedita.
+                            Quasi provident eos voluptates id quidem temporibus, cumque pariatur?</p>
+                    </div>
+                </div>
+                <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Secondary card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                    </div>
+                </div>
+                <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Success card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                    </div>
+                </div>
+                <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Danger card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                    </div>
+                </div>
+                <div class="card text-dark bg-warning mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Warning card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                    </div>
+                </div>
+                <div class="card text-dark bg-info mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Info card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                    </div>
+                </div>
+                <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Light card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                    </div>
+                </div>
+                <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Dark card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+</body>
+
+</html>
